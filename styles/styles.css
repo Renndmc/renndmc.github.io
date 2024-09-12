@@ -41,17 +41,20 @@ blockquote {
 
 @media (max-device-width: 420px){
     body{
-        display: inline;
+        display: block;
         text-align: center;
     }
     h1{
         padding: 10px;
         margin: 10px;
     }
+    div{
+        padding-right: 10px;
+    }
 }
 
 @media (min-device-width: 420px) and (max-device-width:525px) {
-    body,h1{
+    body,h1,div{
         padding: 10px;
         margin: 10px;
     }
