@@ -32,3 +32,19 @@ nav{
     background-color: whitesmoke;
     color: black;
 }
+
+blockquote {
+    font-size: large;
+    font-family: cursive;
+}
+
+@media (max-device-width: 420px){
+    body{
+        display: inline;
+        text-align: center;
+    }
+    h1{
+        padding: 10px;
+        margin: 10px;
+    }
+}
