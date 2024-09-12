@@ -38,12 +38,20 @@ blockquote {
     font-family: cursive;
 }
 
+
 @media (max-device-width: 420px){
     body{
         display: inline;
         text-align: center;
     }
     h1{
+        padding: 10px;
+        margin: 10px;
+    }
+}
+
+@media (min-device-width: 420px) and (max-device-width:525px) {
+    body,h1{
         padding: 10px;
         margin: 10px;
     }
